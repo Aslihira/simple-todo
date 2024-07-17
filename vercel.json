@@ -26,12 +26,13 @@
     ],
   
 
+  "env": {
+    "DATABASE_URL": "postgresql://neondb_owner:YL0dBzAVJ8EC@ep-white-bush-a5t5y6q3-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
+    
+  },
   "build": {
     "env": {
-      "DATABASE_URL": "your-database-url"
-    },
-    "commands": {
-      "build": "npm run build"
+      "DATABASE_URL": "postgresql://neondb_owner:YL0dBzAVJ8EC@ep-white-bush-a5t5y6q3-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
     }
   }
 }
